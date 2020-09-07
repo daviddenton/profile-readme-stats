@@ -253,7 +253,7 @@ function getUserInfo(gql) {
                     }
                 }
             }
-            repositories(affiliations: OWNER, isFork: false, first: 100) {
+            repositories(first: 100) {
                 totalCount
                 nodes {
                     stargazers {

@@ -102,7 +102,7 @@ async function getUserInfo(gql: typeof graphql) {
                     }
                 }
             }
-            repositories(affiliations: [COLLABORATOR, OWNER], first: 100) {
+            repositories(first: 100) {
                 totalCount
                 nodes {
                     stargazers {
